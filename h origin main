@@ -1,0 +1,19 @@
+* [33m7d499f9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m falla en referencia en evaluacionEstudiante en preguntas
+* [33ma898e77[m solucionar save de evaluacionEstudiante tratar de solo usar mappers
+* [33mf33e974[m agregando paginables
+* [33m0f12677[m guardando entrevistas
+* [33m91ffca2[m agregar automatizacion con ia para las respuestas de evaluacion
+* [33mb6ac329[m Avanzar funcionalidad de listar evaluaciones pendientes
+* [33m14c5038[m Avanzar apartado de editar evaluacion V.2
+* [33m3be6c85[m Avanzar funcionalidades para editar evaluacion
+* [33ma6ae40d[m validar doble evaluacion, eliminar , editar y agregar imagen
+* [33mc050163[m avanzar rellenar respuestas examen
+* [33m9fe16ce[m Realziar evaluacion, resultado etc
+* [33m0efe552[m Integrar Query Personalziada
+* [33m6d54a4b[m Avanzar mas endpoint por parte de evaluaciones
+* [33m176c29b[m Se modifico dominio para agregar logica para guardar evaluacion y evitar llamadas circulares
+* [33m600608d[m Solucionar problema de llamadas circulares entre JPA
+* [33mada9fa6[m copia en caso de modificaciones dañen el codigo general
+* [33m6c8fe96[m avanzar evaluaciones mentor y estudiantes
+* [33m98d6b89[m restablecer password, roles fixed
+* [33m5fa5be9[m Solucionar tema de validacion por roles por endpoint protegido

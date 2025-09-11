@@ -1,0 +1,67 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: msvc-zonatch
+
+  profiles:
+    active: dev
+
+  datasource:
+    url: jdbc:mysql://${MYSQL_URL:localhost:3306}/zonatechperu?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: ${MYSQL_USER:root}
+    password: ${MYSQL_PASSWORD:yalico23}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+logging:
+  threshold:
+    console: warn
+  level:
+    org:
+      hibernate:
+        SQL: debug
+
+openai:
+  ia:
+    api:
+      url: https://openrouter.ai/api/v1/chat/completions
+      key: ${IA_API_KEY}
+      model: google/gemma-3-12b-it:free
+  whisper:
+    api:
+      url: http://localhost:9000/asr?task=transcribe&language=es
+
+aws:
+  access-key-id: ${AWS_ACCESS_KEY_ID}
+  secret-key: ${AWS_SECRET_ACCESS_KEY}
+  region: us-east-2
+  s3:
+    bucket: zonatechperu
+
+ffmpeg:
+  path: C:\\FFmpeg\\bin\\ffmpeg.exe
+
+app:
+  host:
+    url: ${URL_HOST_FRONTEND:http://localhost:5173}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    config-url: /v3/api-docs/swagger-config
+    url: /v3/api-docs
+    disable-swagger-default-url: true
+    operationsSorter: method

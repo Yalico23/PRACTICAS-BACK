@@ -1,0 +1,37 @@
+2025-08-11 12:18:02,396 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 9648 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-08-11 12:18:02,400 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] The following 1 profile is active: "dev"
+2025-08-11 12:18:06,472 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-11 12:18:07,671 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-08-11 12:18:07,924 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35ad2ddb
+2025-08-11 12:18:07,927 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-08-11 12:18:08,001 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-11 12:18:08,003 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-11 12:18:14,851 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-11 12:18:17,453 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-11 12:18:17,504 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 16.29 seconds (process running for 17.318)
+2025-08-11 12:18:20,160 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:18:20,250 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-08-11 12:18:29,285 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown initiated...
+2025-08-11 12:18:29,293 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown completed.
+2025-08-11 12:19:56,955 INFO c.s.a.MsvcHotelApplication [restartedMain] [-] Starting MsvcHotelApplication using Java 20.0.1 with PID 12120 (C:\Users\Oscar\Desktop\msvc-hotel\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-08-11 12:19:56,959 INFO c.s.a.MsvcHotelApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-08-11 12:20:01,457 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-11 12:20:03,082 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-08-11 12:20:03,399 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24b6c4f
+2025-08-11 12:20:03,402 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-08-11 12:20:03,469 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-11 12:20:03,471 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-08-11 12:20:06,201 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-11 12:20:07,412 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-08-11 12:20:07,452 INFO c.s.a.MsvcHotelApplication [restartedMain] [-] Started MsvcHotelApplication in 11.479 seconds (process running for 13.65)
+2025-08-11 12:20:11,073 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select ue1_0.id,ue1_0.activo,ue1_0.apellido,ue1_0.email,ue1_0.fecha_creacion,ue1_0.nombre,ue1_0.password,ue1_0.telefono,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:20:15,472 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ue1_0.id,ue1_0.activo,ue1_0.apellido,ue1_0.email,ue1_0.fecha_creacion,ue1_0.nombre,ue1_0.password,ue1_0.telefono,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:20:15,500 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuarios_roles r1_0 join roles r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2025-08-11 12:20:33,878 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ue1_0.id,ue1_0.activo,ue1_0.apellido,ue1_0.email,ue1_0.fecha_creacion,ue1_0.nombre,ue1_0.password,ue1_0.telefono,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:20:33,884 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuarios_roles r1_0 join roles r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2025-08-11 12:20:43,688 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] select ue1_0.id,ue1_0.activo,ue1_0.apellido,ue1_0.email,ue1_0.fecha_creacion,ue1_0.nombre,ue1_0.password,ue1_0.telefono,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:20:50,948 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ue1_0.id,ue1_0.activo,ue1_0.apellido,ue1_0.email,ue1_0.fecha_creacion,ue1_0.nombre,ue1_0.password,ue1_0.telefono,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:21:45,738 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ue1_0.id,ue1_0.activo,ue1_0.apellido,ue1_0.email,ue1_0.fecha_creacion,ue1_0.nombre,ue1_0.password,ue1_0.telefono,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-08-11 12:21:45,741 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select r1_0.usuario_id,r1_1.id,r1_1.nombre from usuarios_roles r1_0 join roles r1_1 on r1_1.id=r1_0.rol_id where r1_0.usuario_id=?
+2025-08-11 12:22:04,377 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown initiated...
+2025-08-11 12:22:04,392 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown completed.

@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: smtp-relay.brevo.com
+    port: 587
+    username: 6c124c003@smtp-brevo.com
+    password: Vhtrkn6wCx0Og8Lv
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+          required: true
