@@ -24,14 +24,14 @@ public class UsuariosControllers {
     private final UsuarioServices usuarioServices;
     private final UsuarioMapper usuarioMapper;
 
-    @PreAuthorize("hasRole('MENTOR')")
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/crear")
     public ResponseEntity<Usuario> crearUsuario(@Valid @RequestBody UsuarioRegisterRequestDTO usuario) {
         Usuario nuevoUsuario = usuarioMapper.toModel(usuario);
         return ResponseEntity.status(HttpStatus.CREATED).body(usuarioServices.crearUsuario(nuevoUsuario));
     }
 
-    @PreAuthorize("hasRole('MENTOR')")
+    @PreAuthorize("hasAnyRole('MENTOR','ADMIN')")
     @GetMapping("/listar")
     public ResponseEntity<List<Usuario>> listarUsuarios() {
         return ResponseEntity.ok(usuarioServices.listarUsuarios());
@@ -58,7 +58,7 @@ public class UsuariosControllers {
         return ResponseEntity.ok(response);
     }
 
-    @PreAuthorize("hasAnyRole('MENTOR','ESTUDIANTE')")
+    @PreAuthorize("hasAnyRole('MENTOR','ESTUDIANTE','ADMIN')")
     @GetMapping("/usuarioByEmail")
     public ResponseEntity<UsuarioByEmailDTOResponse> usuarioByEmail(@RequestParam("email")String email){
         Usuario usuario = usuarioServices.encontrarPorCorreo(email);

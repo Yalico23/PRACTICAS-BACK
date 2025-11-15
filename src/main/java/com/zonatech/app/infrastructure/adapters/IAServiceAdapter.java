@@ -10,10 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.FileSystemResource;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -79,61 +76,56 @@ public class IAServiceAdapter implements IAServiceExternalServicePort {
 
     @Value("${openai.whisper.api.url}")
     private String urlWhisper;
+    @Value("${openai.whisper.api.key}")
+    private String openAiApiKey;
 
     @Override
     public String transcribeVideo(byte[] videoBytes, String filename) {
-        log.info("Iniciando transcripción de video. Archivo: {}, Tamaño: {} bytes", filename, videoBytes.length);
+        log.info("Iniciando transcripción con Whisper OpenAI. Archivo: {}, Tamaño: {} bytes",
+                filename, videoBytes.length);
 
         try {
-            // Validar los bytes
             if (videoBytes == null || videoBytes.length == 0) {
-                throw new RuntimeException("El archivo está vacío");
+                throw new RuntimeException("El archivo de audio está vacío.");
             }
 
-            // Preparar el multipart data para el servicio local de Whisper
             MultiValueMap<String, Object> parts = new LinkedMultiValueMap<>();
-
-            // Agregar el archivo de audio con el nombre correcto esperado por el servicio local
-            parts.add("audio_file", new ByteArrayResource(videoBytes) {
+            parts.add("model", "whisper-1");
+            parts.add("file", new ByteArrayResource(videoBytes) {
                 @Override
                 public String getFilename() {
-                    return filename != null ? filename : "video.webm";
+                    return filename != null ? filename : "audio.webm";
                 }
             });
 
             String response = webClient.post()
                     .uri(urlWhisper)
+                    .header(HttpHeaders.AUTHORIZATION, "Bearer " + openAiApiKey)
                     .contentType(MediaType.MULTIPART_FORM_DATA)
                     .body(BodyInserters.fromMultipartData(parts))
                     .retrieve()
-                    .onStatus(status -> status.is4xxClientError(), clientResponse -> {
-                        log.error("Error 4xx en Whisper local. Status: {}", clientResponse.statusCode());
+                    .onStatus(HttpStatusCode::is4xxClientError, clientResponse -> {
+                        log.error("Error 4xx en OpenAI Whisper: {}", clientResponse.statusCode());
                         return clientResponse.bodyToMono(String.class)
-                                .map(body -> {
-                                    log.error("Respuesta de error: {}", body);
-                                    return new RuntimeException("Error del cliente en Whisper local: " + body);
-                                });
+                                .map(body -> new RuntimeException("Error del cliente: " + body));
                     })
-                    .onStatus(status -> status.is5xxServerError(), clientResponse -> {
-                        log.error("Error 5xx en Whisper local. Status: {}", clientResponse.statusCode());
+                    .onStatus(HttpStatusCode::is5xxServerError, clientResponse -> {
+                        log.error("Error 5xx en OpenAI Whisper: {}", clientResponse.statusCode());
                         return clientResponse.bodyToMono(String.class)
-                                .map(body -> {
-                                    log.error("Respuesta de error del servidor: {}", body);
-                                    return new RuntimeException("Error del servidor en Whisper local: " + body);
-                                });
+                                .map(body -> new RuntimeException("Error del servidor: " + body));
                     })
                     .bodyToMono(String.class)
                     .block();
 
-            log.info("Transcripción completada exitosamente. Longitud del texto: {} caracteres",
+            log.info("Transcripción completada con éxito. Longitud del texto: {} caracteres",
                     response != null ? response.length() : 0);
 
             return response;
 
         } catch (WebClientResponseException e) {
-            log.error("Error de WebClient al transcribir audio. Status: {}, Body: {}",
+            log.error("Error HTTP al transcribir audio. Código: {}, Respuesta: {}",
                     e.getStatusCode(), e.getResponseBodyAsString(), e);
-            throw new RuntimeException("Error en el servicio local de Whisper: " + e.getResponseBodyAsString(), e);
+            throw new RuntimeException("Error en la API de Whisper: " + e.getResponseBodyAsString(), e);
         } catch (Exception e) {
             log.error("Error inesperado al transcribir audio", e);
             throw new RuntimeException("Error al transcribir audio: " + e.getMessage(), e);

@@ -12,4 +12,5 @@ public interface EvaluacionEstudianteRespositoryPort {
     List<Object[]> listEvaluacionesPendientesByEvaluacionId(Long evaluacionId);
     Optional<EvaluacionEstudiante> findById(Long id);
     EvaluacionEstudiante update (EvaluacionEstudiante evaluacionEstudiante);
+    EvaluacionEstudiante findByEvaluacionIdAndEstudianteId(Long evaluacionId, Long estudianteId);
 }

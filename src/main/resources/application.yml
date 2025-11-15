@@ -5,8 +5,19 @@ spring:
   application:
     name: msvc-zonatch
 
-  profiles:
-    active: dev
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: eed6d798fbcff5
+    password: 7cca1695fd6dc1
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+        starttls:
+          enable: true
+          required: true
 
   datasource:
     url: jdbc:mysql://${MYSQL_URL:localhost:3306}/zonatechperu?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
@@ -40,7 +51,8 @@ openai:
       model: google/gemma-3-12b-it:free
   whisper:
     api:
-      url: http://localhost:9000/asr?task=transcribe&language=es
+      url: ${IA_WHISPER_API_URL:http://localhost:9000/asr?task=transcribe&language=es}
+      key: ${IA_WHISPER_API_KEY}
 
 aws:
   access-key-id: ${AWS_ACCESS_KEY_ID}

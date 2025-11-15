@@ -1,0 +1,21 @@
+2025-11-12 00:10:28,073 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-12 00:10:28,079 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] select re1_0.id,re1_0.nombre from roles re1_0 where re1_0.nombre=?
+2025-11-12 00:10:28,084 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] select ue1_0.id from usuarios ue1_0 where ue1_0.token=? limit ?
+2025-11-12 00:10:28,193 INFO c.z.a.a.u.u.CrearUsuarioUseCaseImpl [http-nio-8080-exec-7] [-] Creando usuario: Usuario(id=null, nombre=mentor2, apellidos=mentor2, fechaCreacion=2025-11-12, habilitado=false, password=$2a$10$cnsDnQqls1EuoV0Wu7w2UeGQgs3lGGAgsie8eG1TfyP64lsKvDDOa, email=mentor2@mentor2.com, token=761425, mentor=true, roles=[com.zonatech.app.domain.models.Roles@1466aaea], evaluaciones=null, evaluacionEstudiantes=null, entrevistas=null, entrevistaEstudiantes=null)
+2025-11-12 00:10:28,197 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] insert into usuarios (apellidos,email,fecha_creacion,habilitado,nombre,password,token) values (?,?,?,?,?,?,?)
+2025-11-12 00:10:28,218 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] insert into users_roles (user_id,role_id) values (?,?)
+2025-11-12 00:12:55,174 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown initiated...
+2025-11-12 00:12:55,180 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown completed.
+2025-11-12 00:13:08,086 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 24600 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-12 00:13:08,088 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-12 00:13:12,395 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-12 00:13:14,158 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-11-12 00:13:14,634 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68c5d720
+2025-11-12 00:13:14,641 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-11-12 00:13:15,150 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-12 00:13:15,151 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-12 00:13:24,636 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-12 00:13:26,467 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-12 00:13:26,509 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 19.856 seconds (process running for 21.231)
+2025-11-12 00:15:08,896 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown initiated...
+2025-11-12 00:15:08,905 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown completed.

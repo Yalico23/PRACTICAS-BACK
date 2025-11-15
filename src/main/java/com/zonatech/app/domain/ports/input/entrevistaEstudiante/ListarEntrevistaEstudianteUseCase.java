@@ -9,4 +9,5 @@ public interface ListarEntrevistaEstudianteUseCase {
     EntrevistaEstudiante findById (Long id);
     Page<ResponseDtoEntrevistaPendientes> listEntrevistaEstudianteByIdEvaluacion
             (Long idEntrevista, String filter, Pageable pageable);
+    EntrevistaEstudiante findByIdEntrevistaAndIdEstudiante(Long idEntrevista, Long idEstudiante);
 }

@@ -53,4 +53,10 @@ public class EvaluacionEstudianteEntityAdapter implements EvaluacionEstudianteRe
     public EvaluacionEstudiante update(EvaluacionEstudiante evaluacionEstudiante) {
         return null;
     }
+
+    @Override
+    public EvaluacionEstudiante findByEvaluacionIdAndEstudianteId(Long evaluacionId, Long estudianteId) {
+        return evaluacionEstudianteMapper
+                .toModel(entityRepository.findByEvaluacionIdAndEstudianteId(evaluacionId, estudianteId));
+    }
 }

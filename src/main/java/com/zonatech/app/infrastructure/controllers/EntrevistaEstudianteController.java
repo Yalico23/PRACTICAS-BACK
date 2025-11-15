@@ -4,8 +4,10 @@ import com.zonatech.app.application.services.EntrevistaEstudianteServices;
 import com.zonatech.app.domain.models.EntrevistaEstudiante;
 import com.zonatech.app.domain.models.ResponseDtoEntrevistaPendientes;
 import com.zonatech.app.domain.models.ResponseEntrevistaEstudianteIA;
+import com.zonatech.app.infrastructure.dto.request.entrevistaestudiante.EntrevistaEstudiantesEntityDto;
 import com.zonatech.app.infrastructure.dto.response.mentores.ResponseEntrevistaEstudiante;
 import com.zonatech.app.infrastructure.mappers.EntrevistaEstudianteMapper;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -40,7 +42,7 @@ public class EntrevistaEstudianteController {
         return ResponseEntity.ok().build();
     }
 
-    @PreAuthorize("hasRole('MENTOR')")
+    @PreAuthorize("hasAnyRole('MENTOR','ESTUDIANTE')")
     @GetMapping("/buscarEntrevistaEstudiante")
     public ResponseEntity<ResponseEntrevistaEstudiante> getById(
             @RequestParam("idEntrevistaEstudiante") Long idEntrevistaEstudiante
@@ -64,10 +66,12 @@ public class EntrevistaEstudianteController {
     @PreAuthorize("hasRole('MENTOR')")
     @PostMapping("/generarResumenEntrevistaIA")
     public ResponseEntity<ResponseEntrevistaEstudianteIA> generarResumen(
-            @RequestParam("texto") String texto
+            @RequestBody Map<String, String> request
     ) {
+        String texto = request.get("texto");
         return ResponseEntity.ok(entrevistaEstudianteServices.generarResumenIA(texto));
     }
+
 
     @PreAuthorize("hasRole('MENTOR')")
     @PostMapping("/evaluarEntrevista")
@@ -75,7 +79,25 @@ public class EntrevistaEstudianteController {
             (@RequestParam("idEntrevistaEstudiante") Long idEntrevistaEstudiante,
              @RequestParam("feedback") String feedback,
              @RequestParam("valoracion") int valoracion) {
-        entrevistaEstudianteServices.evaluarEntrevistaEstudiante(idEntrevistaEstudiante,valoracion,feedback);
+        entrevistaEstudianteServices.evaluarEntrevistaEstudiante(idEntrevistaEstudiante, valoracion, feedback);
         return ResponseEntity.ok().build();
+    }
+
+    @PreAuthorize("hasRole('MENTOR')")
+    @PutMapping("/updateEntrevistaEstudiante")
+    public ResponseEntity<EntrevistaEstudiante> update
+            (@Valid @RequestBody EntrevistaEstudiantesEntityDto entrevistaEstudiante) {
+        EntrevistaEstudiante updatedEntrevistaEstudiante = entrevistaEstudianteServices.update(entrevistaEstudiante);
+        return ResponseEntity.ok(updatedEntrevistaEstudiante);
+    }
+
+    @PreAuthorize("hasRole('ESTUDIANTE')")
+    @GetMapping("/idEntrevistaEstudiante/{idEntrevista}/{idEstudiante}")
+    public ResponseEntity<EntrevistaEstudiante> obtenerEntrevistaEstudiantePorEntrevistaYEstudiante(
+            @PathVariable Long idEntrevista,
+            @PathVariable Long idEstudiante) {
+        EntrevistaEstudiante entrevistaEstudiante = entrevistaEstudianteServices
+                .findByIdEntrevistaAndIdEstudiante(idEntrevista, idEstudiante);
+        return ResponseEntity.ok(entrevistaEstudiante);
     }
 }

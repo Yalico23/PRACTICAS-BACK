@@ -7,6 +7,7 @@ import com.zonatech.app.domain.ports.input.entrevistaEstudiante.EvaluarEntrevist
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.GenerarResumenIAUseCase;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.ListarEntrevistaEstudianteUseCase;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.ResponderEntrevistaUseCase;
+import com.zonatech.app.infrastructure.dto.request.entrevistaestudiante.EntrevistaEstudiantesEntityDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
@@ -52,6 +53,12 @@ public class EntrevistaEstudianteServices implements
         return listarEntrevistaEstudianteUseCase.listEntrevistaEstudianteByIdEvaluacion(idEntrevista, filter, pageable);
     }
 
+    @Transactional(readOnly = true)
+    @Override
+    public EntrevistaEstudiante findByIdEntrevistaAndIdEstudiante(Long idEntrevista, Long idEstudiante) {
+        return listarEntrevistaEstudianteUseCase.findByIdEntrevistaAndIdEstudiante(idEntrevista, idEstudiante);
+    }
+
 
     @Override
     public ResponseEntrevistaEstudianteIA generarResumenIA(String resumen) {
@@ -62,5 +69,11 @@ public class EntrevistaEstudianteServices implements
     @Override
     public void evaluarEntrevistaEstudiante(Long idEntrevista, int valoracion, String feedback) {
         evaluarEntrevistaEstudianteUseCase.evaluarEntrevistaEstudiante(idEntrevista, valoracion, feedback);
+    }
+
+    @Transactional
+    @Override
+    public EntrevistaEstudiante update(EntrevistaEstudiantesEntityDto entrevistaEstudiante) {
+        return evaluarEntrevistaEstudianteUseCase.update(entrevistaEstudiante);
     }
 }

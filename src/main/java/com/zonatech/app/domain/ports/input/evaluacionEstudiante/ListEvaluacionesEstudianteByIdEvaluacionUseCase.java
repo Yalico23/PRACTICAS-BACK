@@ -7,4 +7,5 @@ import java.util.List;
 public interface ListEvaluacionesEstudianteByIdEvaluacionUseCase {
     List<Object[]> listEvaluacionesEstudianteByIdEvaluacion(Long idEvaluacion);
     EvaluacionEstudiante findById(Long id);
+    EvaluacionEstudiante findIdEvaluacionEstudiante(Long idEstudiante, Long idEvaluacion);
 }

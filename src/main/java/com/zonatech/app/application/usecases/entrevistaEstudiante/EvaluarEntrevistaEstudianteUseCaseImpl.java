@@ -4,9 +4,12 @@ import com.zonatech.app.domain.exceptions.EntrevistaEstudianteNoEncontradoExcept
 import com.zonatech.app.domain.models.EntrevistaEstudiante;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.EvaluarEntrevistaEstudianteUseCase;
 import com.zonatech.app.domain.ports.output.EntrevistaEstudianteRepositoryPort;
+import com.zonatech.app.infrastructure.dto.request.entrevistaestudiante.EntrevistaEstudiantesEntityDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
+
+import java.util.Optional;
 
 @RequiredArgsConstructor
 public class EvaluarEntrevistaEstudianteUseCaseImpl implements EvaluarEntrevistaEstudianteUseCase {
@@ -24,5 +27,19 @@ public class EvaluarEntrevistaEstudianteUseCaseImpl implements EvaluarEntrevista
         entrevistaEstudiante.setFeedBack(feedback);
         entrevistaEstudiante.setValoracion(valoracion);
         repositoryPort.save(entrevistaEstudiante);
+    }
+
+    @Override
+    public EntrevistaEstudiante update(EntrevistaEstudiantesEntityDto entrevistaEstudiante) {
+
+        EntrevistaEstudiante existente = repositoryPort
+                .findById(entrevistaEstudiante.getId())
+                .orElseThrow(() -> new EntrevistaEstudianteNoEncontradoException(
+                        "Entrevista no encontrada con id : " + entrevistaEstudiante.getId()
+                ));
+
+        existente.setFeedBack(entrevistaEstudiante.getFeedBack());
+        existente.setValoracion(entrevistaEstudiante.getValoracion());
+        return repositoryPort.save(existente);
     }
 }

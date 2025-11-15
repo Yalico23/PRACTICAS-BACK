@@ -40,5 +40,15 @@ public class EntrevistaEstudianteEntityAdapter implements EntrevistaEstudianteRe
         return repository.findEntrevistaPendientes(entrevistaId,filter,pageable);
     }
 
+    @Override
+    public EntrevistaEstudiante findByEntrevistaIdAndEstudianteId(Long entrevistaId, Long estudianteId) {
+        return mapper.toModel(repository.findByEntrevistaIdAndEstudianteId(entrevistaId, estudianteId));
+    }
+
+    @Override
+    public EntrevistaEstudiante update(EntrevistaEstudiante entrevistaEstudiante) {
+        return mapper.toModel(repository.save(mapper.toEntity(entrevistaEstudiante)));
+    }
+
 
 }

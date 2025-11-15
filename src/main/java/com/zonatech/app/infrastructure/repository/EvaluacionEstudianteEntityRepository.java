@@ -25,4 +25,5 @@ public interface EvaluacionEstudianteEntityRepository extends JpaRepository<Eval
             """, nativeQuery = true)
     List<Object[]> findEvaluacionesByIdEvaluacion(@Param("idEvaluacion") Long idEvaluacion);
 
+    EvaluacionEstudianteEntity findByEvaluacionIdAndEstudianteId(Long evaluacionId, Long estudianteId);
 }

@@ -28,4 +28,9 @@ public class ListEvaluacionesEstudianteByIdEvaluacionUseCaseImpl
         return evaluacionEstudianteRespositoryPort.findById(id)
                 .orElseThrow(() -> new EvaluacionNoEncontradaException("Evaluación no encontrada con ID: " + id));
     }
+
+    @Override
+    public EvaluacionEstudiante findIdEvaluacionEstudiante(Long idEstudiante, Long idEvaluacion) {
+        return evaluacionEstudianteRespositoryPort.findByEvaluacionIdAndEstudianteId(idEvaluacion,idEstudiante);
+    }
 }

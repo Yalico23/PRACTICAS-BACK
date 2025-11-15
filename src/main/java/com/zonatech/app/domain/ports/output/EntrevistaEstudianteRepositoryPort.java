@@ -13,4 +13,6 @@ public interface EntrevistaEstudianteRepositoryPort {
     Optional<EntrevistaEstudiante> findById (Long id);
     Page<ResponseDtoEntrevistaPendientes> listEntrevistasPendientesByEvaluacionId
             (Long entrevistaId, String filter, Pageable pageable);
+    EntrevistaEstudiante findByEntrevistaIdAndEstudianteId(Long entrevistaId, Long estudianteId);
+    EntrevistaEstudiante update(EntrevistaEstudiante entrevistaEstudiante);
 }

@@ -35,4 +35,6 @@ public interface EntrevistaEstudiantesEntityRepository extends JpaRepository<Ent
             @Param("idEntrevista") Long idEntrevista,
             @Param("filter") String filter,
             Pageable pageable);
+
+    EntrevistaEstudiantesEntity findByEntrevistaIdAndEstudianteId(Long entrevistaId, Long estudianteId);
 }

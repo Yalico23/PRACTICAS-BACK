@@ -1,0 +1,14 @@
+2025-11-10 18:12:16,271 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 25136 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-10 18:12:16,277 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-10 18:12:21,126 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-10 18:12:22,576 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-11-10 18:12:23,488 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16f2887
+2025-11-10 18:12:23,492 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-11-10 18:12:24,005 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-10 18:12:24,006 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-10 18:12:35,625 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10 18:12:38,482 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-10 18:12:38,511 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 23.546 seconds (process running for 46.927)
+2025-11-10 20:02:33,088 WARN c.z.h.p.HikariPool [HikariPool-1 housekeeper] [-] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44m9s564ms115µs300ns).
+2025-11-10 20:02:43,274 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown initiated...
+2025-11-10 20:02:43,280 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown completed.

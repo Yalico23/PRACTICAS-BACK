@@ -38,5 +38,10 @@ public class ListarEntrevistaEstudianteUseCaseImpl implements ListarEntrevistaEs
                 (idEntrevista, filter, pageable);
     }
 
+    @Override
+    public EntrevistaEstudiante findByIdEntrevistaAndIdEstudiante(Long idEntrevista, Long idEstudiante) {
+        return repositoryPort.findByEntrevistaIdAndEstudianteId(idEntrevista, idEstudiante);
+    }
+
 
 }

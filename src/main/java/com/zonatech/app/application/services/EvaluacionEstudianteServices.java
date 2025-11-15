@@ -50,6 +50,12 @@ public class EvaluacionEstudianteServices implements
         return byIdEvaluacionUseCase.findById(id);
     }
 
+    @Transactional(readOnly = true)
+    @Override
+    public EvaluacionEstudiante findIdEvaluacionEstudiante(Long idEstudiante, Long idEvaluacion) {
+        return byIdEvaluacionUseCase.findIdEvaluacionEstudiante(idEstudiante, idEvaluacion);
+    }
+
     @Override
     public AnalisisRespuestasTextoResponse analizarRespuestasTexto(AnalisisRespuestasTextoRequest request) {
         return calificarEvaluacionUseCase.analizarRespuestasTexto(request);

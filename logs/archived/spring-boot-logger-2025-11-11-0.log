@@ -1,0 +1,2064 @@
+2025-11-11 00:05:01,574 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 27096 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 00:05:01,576 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 00:05:06,281 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:05:07,522 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-11-11 00:05:08,309 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c450348
+2025-11-11 00:05:08,312 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-11-11 00:05:08,605 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 00:05:08,607 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 00:05:17,353 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 00:05:18,845 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:05:18,870 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 18.556 seconds (process running for 33.142)
+2025-11-11 00:10:43,857 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] [-] Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:44,125 INFO o.a.c.h.Http11NioProtocol [Thread-6] [-] Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:44,189 INFO c.z.h.HikariDataSource [Thread-6] [-] HikariPool-1 - Shutdown initiated...
+2025-11-11 00:10:44,203 INFO c.z.h.HikariDataSource [Thread-6] [-] HikariPool-1 - Shutdown completed.
+2025-11-11 00:10:44,400 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 27096 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 00:10:44,400 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 00:10:45,861 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:46,185 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-2 - Starting...
+2025-11-11 00:10:46,555 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2df5c209
+2025-11-11 00:10:46,556 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-2 - Start completed.
+2025-11-11 00:10:46,557 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 00:10:46,558 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 00:10:51,610 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 00:10:52,516 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:52,532 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 8.246 seconds (process running for 366.804)
+2025-11-11 00:10:54,020 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] [-] Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:54,222 INFO o.a.c.h.Http11NioProtocol [Thread-16] [-] Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:54,230 INFO c.z.h.HikariDataSource [Thread-16] [-] HikariPool-2 - Shutdown initiated...
+2025-11-11 00:10:54,233 INFO c.z.h.HikariDataSource [Thread-16] [-] HikariPool-2 - Shutdown completed.
+2025-11-11 00:10:54,364 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 27096 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 00:10:54,364 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 00:10:55,598 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:55,881 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-3 - Starting...
+2025-11-11 00:10:55,937 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76387684
+2025-11-11 00:10:55,938 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-3 - Start completed.
+2025-11-11 00:10:55,939 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 00:10:55,939 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 00:10:57,751 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 00:10:58,709 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:10:58,730 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 4.429 seconds (process running for 373.002)
+2025-11-11 00:11:55,475 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] [-] Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:11:55,791 INFO o.a.c.h.Http11NioProtocol [Thread-29] [-] Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:11:55,812 INFO c.z.h.HikariDataSource [Thread-29] [-] HikariPool-3 - Shutdown initiated...
+2025-11-11 00:11:55,816 INFO c.z.h.HikariDataSource [Thread-29] [-] HikariPool-3 - Shutdown completed.
+2025-11-11 00:11:55,962 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 27096 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 00:11:55,962 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 00:11:56,950 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:11:57,187 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-4 - Starting...
+2025-11-11 00:11:57,330 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ae495b2
+2025-11-11 00:11:57,331 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-4 - Start completed.
+2025-11-11 00:11:57,332 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 00:11:57,335 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 00:11:59,839 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 00:12:00,794 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:12:00,814 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 4.919 seconds (process running for 435.086)
+2025-11-11 00:12:03,302 INFO o.a.c.h.Http11NioProtocol [tomcat-shutdown] [-] Pausing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:12:04,973 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-2] [-] Init duration for springdoc-openapi is: 3430 ms
+2025-11-11 00:12:05,076 INFO o.a.c.h.Http11NioProtocol [Thread-42] [-] Stopping ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:12:05,087 INFO c.z.h.HikariDataSource [Thread-42] [-] HikariPool-4 - Shutdown initiated...
+2025-11-11 00:12:05,097 INFO c.z.h.HikariDataSource [Thread-42] [-] HikariPool-4 - Shutdown completed.
+2025-11-11 00:12:05,330 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 27096 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 00:12:05,330 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 00:12:07,028 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:12:07,314 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-5 - Starting...
+2025-11-11 00:12:07,344 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35cbbc26
+2025-11-11 00:12:07,345 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-5 - Start completed.
+2025-11-11 00:12:07,346 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 00:12:07,346 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 00:12:08,828 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 00:12:09,429 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 00:12:09,439 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 4.226 seconds (process running for 443.711)
+2025-11-11 00:17:00,436 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 00:17:00,632 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 00:34:42,090 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 00:34:42,095 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 00:37:52,965 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 00:37:52,969 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 00:37:53,625 WARN o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [http-nio-8080-exec-1] [-] Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-11-11 00:37:53,635 WARN o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [http-nio-8080-exec-4] [-] Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-11-11 00:38:41,001 WARN o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] [-] Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-11-11 00:38:41,010 WARN o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [http-nio-8080-exec-6] [-] Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2025-11-11 00:39:00,691 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-5 - Shutdown initiated...
+2025-11-11 00:39:00,697 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-5 - Shutdown completed.
+2025-11-11 21:17:14,392 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 15608 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 21:17:14,394 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 21:17:17,574 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 21:17:18,393 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-11-11 21:17:19,178 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ffd7673
+2025-11-11 21:17:19,180 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-11-11 21:17:19,672 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 21:17:19,674 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 21:17:28,983 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 21:17:30,913 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 21:17:30,947 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 17.414 seconds (process running for 20.509)
+2025-11-11 21:18:07,306 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:18:08,214 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:18:09,205 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:18:09,209 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:18:09,213 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:09,493 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:09,632 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:09,748 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:10,248 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:18:10,252 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:18:10,254 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:10,257 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:10,260 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:10,262 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:25,267 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:18:25,270 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:18:25,275 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:25,285 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:25,333 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:25,342 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:26,050 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:18:26,054 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:18:26,057 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:26,059 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:26,061 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:26,063 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:26,081 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:18:26,085 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:18:26,086 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:26,089 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:18:26,090 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:18:26,093 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:20:53,811 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:20:53,814 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:20:54,057 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:20:54,059 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:20:54,061 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:20:54,063 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:20:54,099 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select re1_0.id_evaluacion_estudiante,re1_0.id,re1_0.es_correcta,re1_0.nota,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta,p1_0.id,p1_0.id_evaluacion,p1_0.pregunta,p1_0.tiempo,p1_0.tipo_pregunta,p1_0.valor,p2_0.id,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,e2_0.id_mentor,e2_0.tags,e2_0.titulo,p2_0.pregunta,p2_0.tiempo,p2_0.tipo_pregunta,p2_0.valor,re1_0.respuesta from respuesta_estudiante re1_0 left join opciones_respuestas or1_0 on or1_0.id=re1_0.id_opcion left join preguntas p1_0 on p1_0.id=or1_0.id_pregunta left join preguntas p2_0 on p2_0.id=re1_0.id_pregunta left join evaluaciones e2_0 on e2_0.id=p2_0.id_evaluacion where re1_0.id_evaluacion_estudiante=?
+2025-11-11 21:20:54,136 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:20:54,607 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:20:54,608 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:20:54,630 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 21:20:54,632 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 21:20:54,634 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 21:20:54,635 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:20:54,639 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select re1_0.id_evaluacion_estudiante,re1_0.id,re1_0.es_correcta,re1_0.nota,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta,p1_0.id,p1_0.id_evaluacion,p1_0.pregunta,p1_0.tiempo,p1_0.tipo_pregunta,p1_0.valor,p2_0.id,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,e2_0.id_mentor,e2_0.tags,e2_0.titulo,p2_0.pregunta,p2_0.tiempo,p2_0.tipo_pregunta,p2_0.valor,re1_0.respuesta from respuesta_estudiante re1_0 left join opciones_respuestas or1_0 on or1_0.id=re1_0.id_opcion left join preguntas p1_0 on p1_0.id=or1_0.id_pregunta left join preguntas p2_0 on p2_0.id=re1_0.id_pregunta left join evaluaciones e2_0 on e2_0.id=p2_0.id_evaluacion where re1_0.id_evaluacion_estudiante=?
+2025-11-11 21:20:54,644 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 21:20:54,646 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 21:20:55,045 WARN o.s.d.w.c.SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier [http-nio-8080-exec-10] [-] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-11-11 21:20:55,077 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:20:57,708 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:20:57,775 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:01,118 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:01,138 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:05,487 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,eee1_0.id_entrevista,eee1_0.id_estudiante,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:21:05,632 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.titulo from entrevistas ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:05,636 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:21:05,666 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,eee1_0.id_entrevista,eee1_0.id_estudiante,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:21:05,668 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.titulo from entrevistas ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:05,672 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:21:05,687 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,e2_0.id,e2_0.apellidos,e2_0.email,e2_0.fecha_creacion,e2_0.habilitado,e2_0.nombre,e2_0.password,e2_0.token,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where eee1_0.id=?
+2025-11-11 21:21:10,288 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:10,311 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:11,338 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,eee1_0.id_entrevista,eee1_0.id_estudiante,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:21:11,341 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.titulo from entrevistas ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:11,343 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:21:11,364 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,eee1_0.id_entrevista,eee1_0.id_estudiante,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:21:11,366 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.titulo from entrevistas ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:11,368 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,e2_0.id,e2_0.apellidos,e2_0.email,e2_0.fecha_creacion,e2_0.habilitado,e2_0.nombre,e2_0.password,e2_0.token,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where eee1_0.id=?
+2025-11-11 21:21:11,368 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:21:17,946 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:17,964 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:19,381 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:21:19,415 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:21:20,966 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.tags,ee1_0.titulo from evaluaciones ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:20,971 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select p1_0.id_evaluacion,p1_0.id,p1_0.pregunta,p1_0.tiempo,p1_0.tipo_pregunta,p1_0.valor from preguntas p1_0 where p1_0.id_evaluacion=?
+2025-11-11 21:21:20,976 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,000 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,005 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,007 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,016 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,018 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,021 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,039 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.tags,ee1_0.titulo from evaluaciones ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:21,041 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select p1_0.id_evaluacion,p1_0.id,p1_0.pregunta,p1_0.tiempo,p1_0.tipo_pregunta,p1_0.valor from preguntas p1_0 where p1_0.id_evaluacion=?
+2025-11-11 21:21:21,044 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,045 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,047 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,049 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select eee1_0.id,eee1_0.calificacion_final,eee1_0.completado,eee1_0.id_estudiante,eee1_0.id_evaluacion,eee1_0.fecha_inicio,eee1_0.feedback from evaluacion_estudiante eee1_0 left join evaluaciones e1_0 on e1_0.id=eee1_0.id_evaluacion left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:21:21,049 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,051 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,052 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,055 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select or1_0.id_pregunta,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta from opciones_respuestas or1_0 where or1_0.id_pregunta=?
+2025-11-11 21:21:21,087 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:21:21,116 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.tags,ee1_0.titulo from evaluaciones ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:21,120 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select re1_0.id_evaluacion_estudiante,re1_0.id,re1_0.es_correcta,re1_0.nota,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta,p1_0.id,p1_0.id_evaluacion,p1_0.pregunta,p1_0.tiempo,p1_0.tipo_pregunta,p1_0.valor,p2_0.id,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,e2_0.id_mentor,e2_0.tags,e2_0.titulo,p2_0.pregunta,p2_0.tiempo,p2_0.tipo_pregunta,p2_0.valor,re1_0.respuesta from respuesta_estudiante re1_0 left join opciones_respuestas or1_0 on or1_0.id=re1_0.id_opcion left join preguntas p1_0 on p1_0.id=or1_0.id_pregunta left join preguntas p2_0 on p2_0.id=re1_0.id_pregunta left join evaluaciones e2_0 on e2_0.id=p2_0.id_evaluacion where re1_0.id_evaluacion_estudiante=?
+2025-11-11 21:21:22,048 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select eee1_0.id,eee1_0.calificacion_final,eee1_0.completado,eee1_0.id_estudiante,eee1_0.id_evaluacion,eee1_0.fecha_inicio,eee1_0.feedback from evaluacion_estudiante eee1_0 left join evaluaciones e1_0 on e1_0.id=eee1_0.id_evaluacion left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:21:22,049 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:21:22,051 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.tags,ee1_0.titulo from evaluaciones ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:21:22,054 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select re1_0.id_evaluacion_estudiante,re1_0.id,re1_0.es_correcta,re1_0.nota,or1_0.id,or1_0.correcta,or1_0.opcion_respuesta,p1_0.id,p1_0.id_evaluacion,p1_0.pregunta,p1_0.tiempo,p1_0.tipo_pregunta,p1_0.valor,p2_0.id,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,e2_0.id_mentor,e2_0.tags,e2_0.titulo,p2_0.pregunta,p2_0.tiempo,p2_0.tipo_pregunta,p2_0.valor,re1_0.respuesta from respuesta_estudiante re1_0 left join opciones_respuestas or1_0 on or1_0.id=re1_0.id_opcion left join preguntas p1_0 on p1_0.id=or1_0.id_pregunta left join preguntas p2_0 on p2_0.id=re1_0.id_pregunta left join evaluaciones e2_0 on e2_0.id=p2_0.id_evaluacion where re1_0.id_evaluacion_estudiante=?
+2025-11-11 21:21:28,538 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:21:28,556 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:21:32,413 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:21:32,433 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:33,133 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:33,148 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:35,005 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:35,044 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:36,613 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:36,633 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:37,223 DEBUG org.hibernate.SQL [http-nio-8080-exec-5] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:37,244 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:38,127 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:38,149 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:39,069 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:39,088 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:40,704 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:40,724 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:22:41,233 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:22:41,250 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:52:57,254 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:52:57,632 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:53:12,222 DEBUG org.hibernate.SQL [http-nio-8080-exec-4] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:53:14,390 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:53:19,185 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,eee1_0.id_entrevista,eee1_0.id_estudiante,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:53:19,285 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.titulo from entrevistas ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:53:19,287 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:53:19,296 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,eee1_0.id_entrevista,eee1_0.id_estudiante,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where e1_0.id=? and e2_0.id=?
+2025-11-11 21:53:19,298 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ee1_0.id,ee1_0.activo,ee1_0.descripcion,ee1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,ee1_0.titulo from entrevistas ee1_0 left join usuarios m1_0 on m1_0.id=ee1_0.id_mentor where ee1_0.id=?
+2025-11-11 21:53:19,299 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.id=?
+2025-11-11 21:53:19,302 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select eee1_0.id,eee1_0.urlvideo,eee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,e2_0.id,e2_0.apellidos,e2_0.email,e2_0.fecha_creacion,e2_0.habilitado,e2_0.nombre,e2_0.password,e2_0.token,eee1_0.fecha_entrevista,eee1_0.feed_back,eee1_0.valoracion,eee1_0.video_resumen from entrevista_estudiantes eee1_0 left join entrevistas e1_0 on e1_0.id=eee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor left join usuarios e2_0 on e2_0.id=eee1_0.id_estudiante where eee1_0.id=?
+2025-11-11 21:53:56,587 DEBUG org.hibernate.SQL [http-nio-8080-exec-7] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:53:56,601 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] SELECT
+    e.id,
+    e.titulo,
+    e.descripcion,
+    CONCAT(mentor.nombre, ' ', mentor.apellidos) as mentor,
+    CASE
+        WHEN ee.completado = TRUE THEN 'Completado'
+        WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+        ELSE 'Disponible'
+    END as estado,
+    CONCAT(
+        FLOOR(SUM(p.tiempo) / 60), 'h ',
+        SUM(p.tiempo) % 60, ' min'
+    ) as tiempo
+FROM entrevistas e
+JOIN usuarios mentor ON e.id_mentor = mentor.id
+JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+LEFT JOIN entrevista_estudiantes ee ON e.id = ee.id_entrevista
+    AND ee.id_estudiante = (
+        SELECT u_estudiante.id
+        FROM usuarios u_estudiante
+        JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+        JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+        WHERE u_estudiante.email = ?
+            AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+        LIMIT 1
+    )
+LEFT JOIN pregunta_entrevistas p ON e.id = p.id_entrevista
+WHERE r_mentor.nombre = 'ROLE_MENTOR'
+    AND e.activo = true
+    AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+     )
+GROUP BY
+    e.id,
+    e.titulo,
+    mentor.nombre,
+    mentor.apellidos,
+    ee.completado,
+    ee.id
+ order by e.id desc limit ?
+2025-11-11 21:53:58,993 DEBUG org.hibernate.SQL [http-nio-8080-exec-9] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 21:53:59,117 DEBUG org.hibernate.SQL [http-nio-8080-exec-1] [-]     SELECT
+        e.id,
+        e.titulo,
+        e.descripcion,
+        CONCAT(mentor.nombre, ' ', mentor.apellidos) AS mentor,
+        e.tags AS tecnologia,
+        CASE
+            WHEN ee.completado = TRUE THEN 'Completado'
+            WHEN ee.id IS NOT NULL AND ee.completado = FALSE THEN 'En Progreso'
+            ELSE 'Disponible'
+        END AS estado,
+        CONCAT(
+            FLOOR(SUM(p.tiempo) / 60), 'h ',
+            SUM(p.tiempo) % 60, ' min'
+        ) AS tiempo
+    FROM evaluaciones e
+    JOIN usuarios mentor ON e.id_mentor = mentor.id
+    JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id
+    JOIN roles r_mentor ON ur_mentor.role_id = r_mentor.id
+    LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+        AND ee.id_estudiante = (
+            SELECT u_estudiante.id
+            FROM usuarios u_estudiante
+            JOIN users_roles ur_estudiante ON u_estudiante.id = ur_estudiante.user_id
+            JOIN roles r_estudiante ON ur_estudiante.role_id = r_estudiante.id
+            WHERE u_estudiante.email = ?
+              AND r_estudiante.nombre = 'ROLE_ESTUDIANTE'
+            LIMIT 1
+        )
+    LEFT JOIN preguntas p ON e.id = p.id_evaluacion
+    WHERE r_mentor.nombre = 'ROLE_MENTOR'
+      AND e.activo = true
+      AND (
+          ? IS NULL OR ? = '' OR
+          LOWER(e.titulo) LIKE LOWER(CONCAT('%', ?, '%')) OR
+          LOWER(CONCAT(mentor.nombre, ' ', mentor.apellidos)) LIKE LOWER(CONCAT('%', ?, '%'))
+      )
+    GROUP BY
+        e.id,
+        e.titulo,
+        e.descripcion,
+        mentor.nombre,
+        mentor.apellidos,
+        e.tags,
+        ee.completado,
+        ee.id
+    ORDER BY e.titulo
+, e.id desc limit ?
+2025-11-11 23:13:39,068 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown initiated...
+2025-11-11 23:13:39,219 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] [-] HikariPool-1 - Shutdown completed.
+2025-11-11 23:18:33,966 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Starting MsvcZonatchApplication using Java 20.0.1 with PID 24196 (C:\Users\Oscar\Desktop\msvc-zonatch\target\classes started by Oscar in C:\Users\Oscar\Desktop\msvc-zonatch)
+2025-11-11 23:18:33,970 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] No active profile set, falling back to 1 default profile: "default"
+2025-11-11 23:18:37,172 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-11 23:18:38,298 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Starting...
+2025-11-11 23:18:38,698 INFO c.z.h.p.HikariPool [restartedMain] [-] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4af932d5
+2025-11-11 23:18:38,701 INFO c.z.h.HikariDataSource [restartedMain] [-] HikariPool-1 - Start completed.
+2025-11-11 23:18:39,204 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-11 23:18:39,207 WARN o.h.orm.deprecation [restartedMain] [-] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-11 23:18:45,807 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] [-] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-11 23:18:46,812 INFO o.a.c.h.Http11NioProtocol [restartedMain] [-] Starting ProtocolHandler ["http-nio-8080"]
+2025-11-11 23:18:46,840 INFO c.z.a.MsvcZonatchApplication [restartedMain] [-] Started MsvcZonatchApplication in 13.721 seconds (process running for 14.782)
+2025-11-11 23:19:10,933 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 23:19:10,974 DEBUG org.hibernate.SQL [http-nio-8080-exec-2] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 23:19:11,361 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 23:19:11,365 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 23:19:11,368 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 23:19:11,372 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:19:11,391 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 23:19:11,392 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:19:11,416 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 23:19:11,418 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 23:19:11,418 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 23:19:11,420 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:19:11,421 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 23:19:11,422 DEBUG org.hibernate.SQL [http-nio-8080-exec-6] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:20:38,046 INFO o.s.a.AbstractOpenApiResource [http-nio-8080-exec-9] [-] Init duration for springdoc-openapi is: 900 ms
+2025-11-11 23:28:23,869 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 23:28:23,872 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 23:28:23,875 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 23:28:23,877 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:28:23,878 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 23:28:23,881 DEBUG org.hibernate.SQL [http-nio-8080-exec-3] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:28:23,896 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 23:28:23,898 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select r1_0.user_id,r1_1.id,r1_1.nombre from users_roles r1_0 join roles r1_1 on r1_1.id=r1_0.role_id where r1_0.user_id=?
+2025-11-11 23:28:23,901 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.tags,e1_0.titulo from evaluaciones e1_0 where e1_0.id_mentor=?
+2025-11-11 23:28:23,903 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.calificacion_final,ee1_0.completado,e2_0.id,e2_0.activo,e2_0.descripcion,e2_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e2_0.tags,e2_0.titulo,ee1_0.fecha_inicio,ee1_0.feedback from evaluacion_estudiante ee1_0 left join evaluaciones e2_0 on e2_0.id=ee1_0.id_evaluacion left join usuarios m1_0 on m1_0.id=e2_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:28:23,905 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select e1_0.id_mentor,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,e1_0.titulo from entrevistas e1_0 where e1_0.id_mentor=?
+2025-11-11 23:28:23,907 DEBUG org.hibernate.SQL [http-nio-8080-exec-10] [-] select ee1_0.id_estudiante,ee1_0.id,ee1_0.urlvideo,ee1_0.completado,e1_0.id,e1_0.activo,e1_0.descripcion,e1_0.fecha_creacion,m1_0.id,m1_0.apellidos,m1_0.email,m1_0.fecha_creacion,m1_0.habilitado,m1_0.nombre,m1_0.password,m1_0.token,e1_0.titulo,ee1_0.fecha_entrevista,ee1_0.feed_back,ee1_0.valoracion,ee1_0.video_resumen from entrevista_estudiantes ee1_0 left join entrevistas e1_0 on e1_0.id=ee1_0.id_entrevista left join usuarios m1_0 on m1_0.id=e1_0.id_mentor where ee1_0.id_estudiante=?
+2025-11-11 23:42:53,474 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ue1_0.id,ue1_0.apellidos,ue1_0.email,ue1_0.fecha_creacion,ue1_0.habilitado,ue1_0.nombre,ue1_0.password,ue1_0.token from usuarios ue1_0 where ue1_0.email=?
+2025-11-11 23:42:53,477 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select re1_0.id,re1_0.nombre from roles re1_0 where re1_0.nombre=?
+2025-11-11 23:42:53,791 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] select ue1_0.id from usuarios ue1_0 where ue1_0.token=? limit ?
+2025-11-11 23:42:53,979 INFO c.z.a.a.u.u.CrearUsuarioUseCaseImpl [http-nio-8080-exec-8] [-] Creando usuario: Usuario(id=null, nombre=Jose, apellidos=Ampuero Villanueva, fechaCreacion=2025-11-11, habilitado=false, password=$2a$10$wCzHR09NSjqKd/xXNjtFp.Jv.G5XXS/J0RkBrCx7gJtHDQCd8QUD6, email=ampuero@gmail.com, token=157431, mentor=false, roles=[com.zonatech.app.domain.models.Roles@74bd945b], evaluaciones=null, evaluacionEstudiantes=null, entrevistas=null, entrevistaEstudiantes=null)
+2025-11-11 23:42:54,023 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] insert into usuarios (apellidos,email,fecha_creacion,habilitado,nombre,password,token) values (?,?,?,?,?,?,?)
+2025-11-11 23:42:55,050 DEBUG org.hibernate.SQL [http-nio-8080-exec-8] [-] insert into users_roles (user_id,role_id) values (?,?)

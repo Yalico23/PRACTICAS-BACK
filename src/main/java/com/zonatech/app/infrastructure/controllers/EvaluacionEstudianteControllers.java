@@ -118,4 +118,12 @@ public class EvaluacionEstudianteControllers {
         }
     }
 
+    @PreAuthorize("hasRole('ESTUDIANTE')")
+    @GetMapping("idEvaluacionEstudiante/{idEvaluacion}/{idEstudiante}")
+    public ResponseEntity<EvaluacionEstudiante> obtenerEvaluacionPorId
+            (@PathVariable("idEvaluacion") Long idEvaluacion,
+             @PathVariable("idEstudiante") Long idEstudiante) {
+        EvaluacionEstudiante evaluacion = evaluacionEstudianteServices.findIdEvaluacionEstudiante(idEstudiante, idEvaluacion);
+        return ResponseEntity.ok(evaluacion);
+    }
 }
