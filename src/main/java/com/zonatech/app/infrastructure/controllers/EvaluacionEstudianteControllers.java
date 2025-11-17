@@ -127,10 +127,10 @@ public class EvaluacionEstudianteControllers {
     }
     
     @PreAuthorize("hasRole('ESTUDIANTE')")
-    @GetMapping("promedioCalificaciones/{idEstudiante}")
-    public ResponseEntity<PromedioGeneralDtoEstudiante> promedioGeneralDtoEstudiante
+    @GetMapping("comparacionMentores/{idEstudiante}")
+    public ResponseEntity<List<ComparacionMentores>> promedioGeneralDtoEstudiante
             (@PathVariable("idEstudiante") Long idEstudiante) {
-        PromedioGeneralDtoEstudiante promedio = evaluacionEstudianteServices.getPromedioGeneralByIdEstudiante(idEstudiante);
+        List<ComparacionMentores> promedio = evaluacionEstudianteServices.getComparacionMentores(idEstudiante);
         return ResponseEntity.ok(promedio);
     }
 

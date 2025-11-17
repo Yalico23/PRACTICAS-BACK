@@ -35,8 +35,8 @@ public class ListEvaluacionesEstudianteByIdEvaluacionUseCaseImpl
     }
 
     @Override
-    public PromedioGeneralDtoEstudiante getPromedioGeneralByIdEstudiante(Long idEstudiante) {
-        return evaluacionEstudianteRespositoryPort.getPromedioGeneralByIdEstudiante(idEstudiante);
+    public List<ComparacionMentores> getComparacionMentores(Long idEstudiante) {
+        return evaluacionEstudianteRespositoryPort.getComparacionMentores(idEstudiante);
     }
 
     @Override

@@ -61,10 +61,10 @@ public class EvaluacionEstudianteEntityAdapter implements EvaluacionEstudianteRe
     }
 
     @Override
-    public PromedioGeneralDtoEstudiante getPromedioGeneralByIdEstudiante(Long idEstudiante) {
-        return entityRepository.gePromedioGeneralDtoEstudiante(idEstudiante);
+    public List<ComparacionMentores> getComparacionMentores(Long idEstudiante) {
+        return entityRepository.getComparacionMentores(idEstudiante);
     }
-
+    
     @Override
     public List<ComparacionPromedioGeneralEvalu> getComparacionPromedioGeneralEvalu(Long idEvaluacion) {
         return entityRepository.getComparacionPromedioGeneralEvalu(idEvaluacion);

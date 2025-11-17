@@ -57,8 +57,8 @@ public class EvaluacionEstudianteServices implements
 
     @Transactional(readOnly = true)
     @Override
-    public PromedioGeneralDtoEstudiante getPromedioGeneralByIdEstudiante(Long idEstudiante) {
-        return byIdEvaluacionUseCase.getPromedioGeneralByIdEstudiante(idEstudiante);
+    public List<ComparacionMentores> getComparacionMentores(Long idEstudiante) {
+        return byIdEvaluacionUseCase.getComparacionMentores(idEstudiante);
     }
 
     @Transactional(readOnly = true)

@@ -30,23 +30,21 @@ public interface EvaluacionEstudianteEntityRepository extends JpaRepository<Eval
 
     @Query(value = """
             SELECT\s
-                CASE\s
-                    WHEN calificacion_final >= 18 THEN 'Excelente'
-                    WHEN calificacion_final >= 15 THEN 'Bueno'
-                    WHEN calificacion_final > 11 THEN 'Regular'
-                    ELSE 'Necesita Mejorar (<11)'
-                END as rangoCalificacion,
-                COUNT(*) as cantidad,
-                ROUND(AVG(calificacion_final), 2) as promedioRango
-            FROM evaluacion_estudiante
-            WHERE id_estudiante = :estudiante_id\s
-                AND completado = true
-                AND calificacion_final > 0
-            GROUP BY rangoCalificacion
-            ORDER BY promedioRango DESC;
+                u.nombre AS mentorNombre,
+                u.apellidos AS mentorApellidos,
+                COUNT(ee.id) AS evaluacionesConMentor,
+                AVG(ee.calificacion_final) AS calificacionPromedio,
+                MIN(ee.calificacion_final) AS calificacionMinima,
+                MAX(ee.calificacion_final) AS calificacionMaxima
+            FROM evaluacion_estudiante ee
+            JOIN evaluaciones e ON ee.id_evaluacion = e.id
+            JOIN usuarios u ON e.id_mentor = u.id
+            WHERE ee.id_estudiante = :idEstudiante and ee.calificacion_final > 0
+            GROUP BY u.id, u.nombre, u.apellidos
+            ORDER BY calificacionPromedio DESC;
             """, nativeQuery = true)
-    PromedioGeneralDtoEstudiante gePromedioGeneralDtoEstudiante(
-            @Param("estudiante_id") Long estudianteId);
+    List<ComparacionMentores> getComparacionMentores(
+            @Param("idEstudiante") Long idEstudiante);
 
     @Query(value = """
             SELECT\s
