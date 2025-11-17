@@ -4,6 +4,7 @@ import com.zonatech.app.application.services.EntrevistaEstudianteServices;
 import com.zonatech.app.domain.models.EntrevistaEstudiante;
 import com.zonatech.app.domain.models.ResponseDtoEntrevistaPendientes;
 import com.zonatech.app.domain.models.ResponseEntrevistaEstudianteIA;
+import com.zonatech.app.domain.models.TopEntrevistasEstudiantes;
 import com.zonatech.app.infrastructure.dto.request.entrevistaestudiante.EntrevistaEstudiantesEntityDto;
 import com.zonatech.app.infrastructure.dto.response.mentores.ResponseEntrevistaEstudiante;
 import com.zonatech.app.infrastructure.mappers.EntrevistaEstudianteMapper;
@@ -17,6 +18,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -99,5 +101,14 @@ public class EntrevistaEstudianteController {
         EntrevistaEstudiante entrevistaEstudiante = entrevistaEstudianteServices
                 .findByIdEntrevistaAndIdEstudiante(idEntrevista, idEstudiante);
         return ResponseEntity.ok(entrevistaEstudiante);
+    }
+
+    @PreAuthorize("hasRole('MENTOR')")
+    @GetMapping("topEntrveistaEstudiantes/{idMentor}")
+    public ResponseEntity<List<TopEntrevistasEstudiantes>> getTopEntrevistasEstudiantesResponseEntity
+            (@PathVariable("idMentor") Long idMentor) {
+        List<TopEntrevistasEstudiantes> topEntrevistasEstudiantes = entrevistaEstudianteServices
+                .getTopEntrevistasEstudiantes(idMentor);
+        return ResponseEntity.ok(topEntrevistasEstudiantes);
     }
 }

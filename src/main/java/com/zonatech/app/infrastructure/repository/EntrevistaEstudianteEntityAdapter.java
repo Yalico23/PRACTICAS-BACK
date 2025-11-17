@@ -2,6 +2,7 @@ package com.zonatech.app.infrastructure.repository;
 
 import com.zonatech.app.domain.models.EntrevistaEstudiante;
 import com.zonatech.app.domain.models.ResponseDtoEntrevistaPendientes;
+import com.zonatech.app.domain.models.TopEntrevistasEstudiantes;
 import com.zonatech.app.domain.ports.output.EntrevistaEstudianteRepositoryPort;
 import com.zonatech.app.infrastructure.entities.EntrevistaEstudiantesEntity;
 import com.zonatech.app.infrastructure.mappers.EntrevistaEstudianteMapper;
@@ -10,6 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.Optional;
 
 @RequiredArgsConstructor
@@ -48,6 +50,11 @@ public class EntrevistaEstudianteEntityAdapter implements EntrevistaEstudianteRe
     @Override
     public EntrevistaEstudiante update(EntrevistaEstudiante entrevistaEstudiante) {
         return mapper.toModel(repository.save(mapper.toEntity(entrevistaEstudiante)));
+    }
+
+    @Override
+    public List<TopEntrevistasEstudiantes> getTopEntrevistasEstudiantes(Long idMentor) {
+        return repository.getTopEntrevistasEstudiantes(idMentor);
     }
 
 

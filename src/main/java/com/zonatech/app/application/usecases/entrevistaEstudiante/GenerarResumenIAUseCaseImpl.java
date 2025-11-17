@@ -28,7 +28,7 @@ public class GenerarResumenIAUseCaseImpl implements GenerarResumenIAUseCase {
                 "IMPORTANTE: Responde ÚNICAMENTE con un objeto JSON válido con esta estructura exacta.\n" +
                 "CADA CAMPO DEBE TENER CONTENIDO ESPECÍFICO Y ÚTIL:\n\n" +
                 "{\n" +
-                "  \"notaSugerida\": [número del 1-20 basado en el desempeño general],\n" +
+                "  \"notaSugerida\": [nota entre 1 y 20 segun lo que merezca],\n" +
                 "  \"analisis\": \"[evaluación general concisa del desempeño en 2-3 oraciones]\",\n" +
                 "  \"fortalezas\": \"[enumera 2-3 fortalezas específicas observadas, separadas por puntos]\",\n" +
                 "  \"debilidades\": \"[identifica 2-3 áreas de mejora específicas, separadas por puntos]\",\n" +

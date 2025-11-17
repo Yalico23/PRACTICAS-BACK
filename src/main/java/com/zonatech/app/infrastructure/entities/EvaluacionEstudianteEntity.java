@@ -20,6 +20,7 @@ public class EvaluacionEstudianteEntity {
     private Long id;
     private boolean completado;
     private LocalDate fechaInicio;
+    @Column(columnDefinition = "TEXT")
     private String feedback;
     private int calificacionFinal;
 

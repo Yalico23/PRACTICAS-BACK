@@ -1,6 +1,6 @@
 package com.zonatech.app.infrastructure.repository;
 
-import com.zonatech.app.domain.models.EvaluacionEstudiante;
+import com.zonatech.app.domain.models.*;
 import com.zonatech.app.domain.ports.output.EvaluacionEstudianteRespositoryPort;
 import com.zonatech.app.infrastructure.entities.EvaluacionEstudianteEntity;
 import com.zonatech.app.infrastructure.mappers.EvaluacionEstudianteMapper;
@@ -58,5 +58,30 @@ public class EvaluacionEstudianteEntityAdapter implements EvaluacionEstudianteRe
     public EvaluacionEstudiante findByEvaluacionIdAndEstudianteId(Long evaluacionId, Long estudianteId) {
         return evaluacionEstudianteMapper
                 .toModel(entityRepository.findByEvaluacionIdAndEstudianteId(evaluacionId, estudianteId));
+    }
+
+    @Override
+    public PromedioGeneralDtoEstudiante getPromedioGeneralByIdEstudiante(Long idEstudiante) {
+        return entityRepository.gePromedioGeneralDtoEstudiante(idEstudiante);
+    }
+
+    @Override
+    public List<ComparacionPromedioGeneralEvalu> getComparacionPromedioGeneralEvalu(Long idEvaluacion) {
+        return entityRepository.getComparacionPromedioGeneralEvalu(idEvaluacion);
+    }
+
+    @Override
+    public List<ProgresoMensualEstudiante> getProgresoMensualEstudiante(Long idEstudiante) {
+        return entityRepository.getProgresoMensualEstudiantes(idEstudiante);
+    }
+
+    @Override
+    public List<ResumenEvalucionMentor> getResumenEvaluacionMentor(Long idMentor) {
+        return entityRepository.getResumenEvalucionMentors(idMentor);
+    }
+
+    @Override
+    public List<MejorPeorDesempeno> getMejorPeorDesempenos(Long idMentor) {
+        return entityRepository.getMejorPeorDesempenos(idMentor);
     }
 }

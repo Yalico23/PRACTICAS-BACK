@@ -3,6 +3,7 @@ package com.zonatech.app.application.services;
 import com.zonatech.app.domain.models.EntrevistaEstudiante;
 import com.zonatech.app.domain.models.ResponseDtoEntrevistaPendientes;
 import com.zonatech.app.domain.models.ResponseEntrevistaEstudianteIA;
+import com.zonatech.app.domain.models.TopEntrevistasEstudiantes;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.EvaluarEntrevistaEstudianteUseCase;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.GenerarResumenIAUseCase;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.ListarEntrevistaEstudianteUseCase;
@@ -14,6 +15,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -59,6 +61,11 @@ public class EntrevistaEstudianteServices implements
         return listarEntrevistaEstudianteUseCase.findByIdEntrevistaAndIdEstudiante(idEntrevista, idEstudiante);
     }
 
+    @Transactional(readOnly = true)
+    @Override
+    public List<TopEntrevistasEstudiantes> getTopEntrevistasEstudiantes(Long idMentor) {
+        return listarEntrevistaEstudianteUseCase.getTopEntrevistasEstudiantes(idMentor);
+    }
 
     @Override
     public ResponseEntrevistaEstudianteIA generarResumenIA(String resumen) {

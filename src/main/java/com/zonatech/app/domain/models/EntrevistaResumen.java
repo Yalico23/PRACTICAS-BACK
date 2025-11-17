@@ -16,4 +16,5 @@ public class EntrevistaResumen {
     private String mentor;
     private String estado;
     private String tiempo;
+    private String feedBack;
 }

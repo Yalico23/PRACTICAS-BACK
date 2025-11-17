@@ -1,6 +1,6 @@
 package com.zonatech.app.domain.ports.output;
 
-import com.zonatech.app.domain.models.EvaluacionEstudiante;
+import com.zonatech.app.domain.models.*;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,4 +13,9 @@ public interface EvaluacionEstudianteRespositoryPort {
     Optional<EvaluacionEstudiante> findById(Long id);
     EvaluacionEstudiante update (EvaluacionEstudiante evaluacionEstudiante);
     EvaluacionEstudiante findByEvaluacionIdAndEstudianteId(Long evaluacionId, Long estudianteId);
+    PromedioGeneralDtoEstudiante getPromedioGeneralByIdEstudiante(Long idEstudiante);
+    List<ComparacionPromedioGeneralEvalu>getComparacionPromedioGeneralEvalu(Long idEvaluacion);
+    List<ProgresoMensualEstudiante> getProgresoMensualEstudiante(Long idEstudiante);
+    List<ResumenEvalucionMentor> getResumenEvaluacionMentor(Long idMentor);
+    List<MejorPeorDesempeno> getMejorPeorDesempenos(Long idMentor);
 }

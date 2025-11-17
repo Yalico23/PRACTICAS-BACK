@@ -1,7 +1,6 @@
 package com.zonatech.app.application.services;
 
-import com.zonatech.app.domain.models.AnalisisRespuestasTextoRequest;
-import com.zonatech.app.domain.models.EvaluacionEstudiante;
+import com.zonatech.app.domain.models.*;
 import com.zonatech.app.domain.ports.input.evaluacionEstudiante.ListEvaluacionesEstudianteByIdEvaluacionUseCase;
 import com.zonatech.app.domain.ports.input.evaluacionEstudiante.ResponserEvaluacionUseCase;
 import com.zonatech.app.domain.ports.input.evaluacionEstudiante.CalificarEvaluacionUseCase;
@@ -54,6 +53,36 @@ public class EvaluacionEstudianteServices implements
     @Override
     public EvaluacionEstudiante findIdEvaluacionEstudiante(Long idEstudiante, Long idEvaluacion) {
         return byIdEvaluacionUseCase.findIdEvaluacionEstudiante(idEstudiante, idEvaluacion);
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public PromedioGeneralDtoEstudiante getPromedioGeneralByIdEstudiante(Long idEstudiante) {
+        return byIdEvaluacionUseCase.getPromedioGeneralByIdEstudiante(idEstudiante);
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public List<ComparacionPromedioGeneralEvalu> getComparacionPromedioGeneralEvalu(Long idEvaluacion) {
+        return byIdEvaluacionUseCase.getComparacionPromedioGeneralEvalu(idEvaluacion);
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public List<ProgresoMensualEstudiante> getProgresoMensualEstudiante(Long idEstudiante) {
+        return byIdEvaluacionUseCase.getProgresoMensualEstudiante(idEstudiante);
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public List<ResumenEvalucionMentor> getResumenEvaluacionMentor(Long idMentor) {
+        return byIdEvaluacionUseCase.getResumenEvaluacionMentor(idMentor);
+    }
+
+    @Transactional(readOnly = true)
+    @Override
+    public List<MejorPeorDesempeno> getMejorPeorDesempenos(Long idMentor) {
+        return byIdEvaluacionUseCase.getMejorPeorDesempenos(idMentor);
     }
 
     @Override

@@ -31,7 +31,8 @@ public interface EvaluacionesEntityRepository extends JpaRepository<Evaluaciones
                     CONCAT(
                         FLOOR(SUM(p.tiempo) / 60), 'h ',
                         SUM(p.tiempo) % 60, ' min'
-                    ) AS tiempo
+                    ) AS tiempo,
+                     ee.feedback AS feedback
                 FROM evaluaciones e
                 JOIN usuarios mentor ON e.id_mentor = mentor.id
                 JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id

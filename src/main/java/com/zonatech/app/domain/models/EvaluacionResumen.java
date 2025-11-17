@@ -17,4 +17,5 @@ public class EvaluacionResumen {
     private String tecnologia;
     private String estado;
     private String tiempo;
+    private String feedback;
 }

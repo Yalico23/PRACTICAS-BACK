@@ -38,7 +38,8 @@ public interface EntrevistaEntityRepository extends JpaRepository<EntrevistaEnti
                 CONCAT(
                     FLOOR(SUM(p.tiempo) / 60), 'h ',
                     SUM(p.tiempo) % 60, ' min'
-                ) as tiempo
+                ) as tiempo,
+                ee.feed_back as feedBack
             FROM entrevistas e
             JOIN usuarios mentor ON e.id_mentor = mentor.id
             JOIN users_roles ur_mentor ON mentor.id = ur_mentor.user_id

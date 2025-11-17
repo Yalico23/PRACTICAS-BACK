@@ -3,6 +3,7 @@ package com.zonatech.app.application.usecases.entrevistaEstudiante;
 import com.zonatech.app.domain.exceptions.EntrevistaEstudianteNoEncontradoException;
 import com.zonatech.app.domain.models.EntrevistaEstudiante;
 import com.zonatech.app.domain.models.ResponseDtoEntrevistaPendientes;
+import com.zonatech.app.domain.models.TopEntrevistasEstudiantes;
 import com.zonatech.app.domain.ports.input.entrevistaEstudiante.ListarEntrevistaEstudianteUseCase;
 import com.zonatech.app.domain.ports.output.AwsServiceExternalServicePort;
 import com.zonatech.app.domain.ports.output.EntrevistaEstudianteRepositoryPort;
@@ -11,6 +12,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import java.time.Duration;
+import java.util.List;
 
 @RequiredArgsConstructor
 public class ListarEntrevistaEstudianteUseCaseImpl implements ListarEntrevistaEstudianteUseCase {
@@ -41,6 +43,11 @@ public class ListarEntrevistaEstudianteUseCaseImpl implements ListarEntrevistaEs
     @Override
     public EntrevistaEstudiante findByIdEntrevistaAndIdEstudiante(Long idEntrevista, Long idEstudiante) {
         return repositoryPort.findByEntrevistaIdAndEstudianteId(idEntrevista, idEstudiante);
+    }
+
+    @Override
+    public List<TopEntrevistasEstudiantes> getTopEntrevistasEstudiantes(Long idMentor) {
+        return repositoryPort.getTopEntrevistasEstudiantes(idMentor);
     }
 
 

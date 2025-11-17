@@ -1,8 +1,7 @@
 package com.zonatech.app.infrastructure.controllers;
 
 import com.zonatech.app.application.services.EvaluacionEstudianteServices;
-import com.zonatech.app.domain.models.AnalisisRespuestasTextoRequest;
-import com.zonatech.app.domain.models.EvaluacionEstudiante;
+import com.zonatech.app.domain.models.*;
 import com.zonatech.app.infrastructure.dto.request.evaluacionEstudiante.DtoRequestEvaluarEvaluacion;
 import com.zonatech.app.infrastructure.dto.request.evaluacionEstudiante.RequestDtoCrearEvaluacionEstudiante;
 import com.zonatech.app.infrastructure.dto.response.IA.AnalisisRespuestasTextoResponse;
@@ -125,5 +124,45 @@ public class EvaluacionEstudianteControllers {
              @PathVariable("idEstudiante") Long idEstudiante) {
         EvaluacionEstudiante evaluacion = evaluacionEstudianteServices.findIdEvaluacionEstudiante(idEstudiante, idEvaluacion);
         return ResponseEntity.ok(evaluacion);
+    }
+    
+    @PreAuthorize("hasRole('ESTUDIANTE')")
+    @GetMapping("promedioCalificaciones/{idEstudiante}")
+    public ResponseEntity<PromedioGeneralDtoEstudiante> promedioGeneralDtoEstudiante
+            (@PathVariable("idEstudiante") Long idEstudiante) {
+        PromedioGeneralDtoEstudiante promedio = evaluacionEstudianteServices.getPromedioGeneralByIdEstudiante(idEstudiante);
+        return ResponseEntity.ok(promedio);
+    }
+
+    @PreAuthorize("hasRole('ESTUDIANTE')")
+    @GetMapping("ComparacionPromedioCalificaciones/{idEstudiante}")
+    public ResponseEntity<List<ComparacionPromedioGeneralEvalu>> comparacionPromedioGeneralEvalu
+            (@PathVariable("idEstudiante") Long idEstudiante) {
+        List<ComparacionPromedioGeneralEvalu> promedio = evaluacionEstudianteServices.getComparacionPromedioGeneralEvalu(idEstudiante);
+        return ResponseEntity.ok(promedio);
+    }
+
+    @PreAuthorize("hasRole('ESTUDIANTE')")
+    @GetMapping("ProgresoMensualEstdudiante/{idEstudiante}")
+    public ResponseEntity<List<ProgresoMensualEstudiante>> progresoMensualEstdudiante
+            (@PathVariable("idEstudiante") Long idEstudiante) {
+        List<ProgresoMensualEstudiante> promedio = evaluacionEstudianteServices.getProgresoMensualEstudiante(idEstudiante);
+        return ResponseEntity.ok(promedio);
+    }
+
+    @PreAuthorize("hasRole('MENTOR')")
+    @GetMapping("ResumenEvaluacionMentor/{idMentor}")
+    public ResponseEntity<List<ResumenEvalucionMentor>> resumenEvaluacionMentor
+            (@PathVariable("idMentor") Long idMentor) {
+        List<ResumenEvalucionMentor> promedio = evaluacionEstudianteServices.getResumenEvaluacionMentor(idMentor);
+        return ResponseEntity.ok(promedio);
+    }
+
+    @PreAuthorize("hasRole('MENTOR')")
+    @GetMapping("mejorPeorDesempeno/{idMentor}")
+    public ResponseEntity<List<MejorPeorDesempeno>> mejorPeorDesempeno
+            (@PathVariable("idMentor") Long idMentor) {
+        List<MejorPeorDesempeno> promedio = evaluacionEstudianteServices.getMejorPeorDesempenos(idMentor);
+        return ResponseEntity.ok(promedio);
     }
 }

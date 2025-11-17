@@ -1,5 +1,6 @@
 package com.zonatech.app.infrastructure.repository;
 
+import com.zonatech.app.domain.models.*;
 import com.zonatech.app.infrastructure.entities.EvaluacionEstudianteEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -26,4 +27,100 @@ public interface EvaluacionEstudianteEntityRepository extends JpaRepository<Eval
     List<Object[]> findEvaluacionesByIdEvaluacion(@Param("idEvaluacion") Long idEvaluacion);
 
     EvaluacionEstudianteEntity findByEvaluacionIdAndEstudianteId(Long evaluacionId, Long estudianteId);
+
+    @Query(value = """
+            SELECT\s
+                CASE\s
+                    WHEN calificacion_final >= 18 THEN 'Excelente'
+                    WHEN calificacion_final >= 15 THEN 'Bueno'
+                    WHEN calificacion_final > 11 THEN 'Regular'
+                    ELSE 'Necesita Mejorar (<11)'
+                END as rangoCalificacion,
+                COUNT(*) as cantidad,
+                ROUND(AVG(calificacion_final), 2) as promedioRango
+            FROM evaluacion_estudiante
+            WHERE id_estudiante = :estudiante_id\s
+                AND completado = true
+                AND calificacion_final > 0
+            GROUP BY rangoCalificacion
+            ORDER BY promedioRango DESC;
+            """, nativeQuery = true)
+    PromedioGeneralDtoEstudiante gePromedioGeneralDtoEstudiante(
+            @Param("estudiante_id") Long estudianteId);
+
+    @Query(value = """
+            SELECT\s
+                e.titulo AS evaluacion,
+                ee.calificacion_final AS miCalificacion,
+                AVG(ee_todos.calificacion_final) AS calificacionPromedioGeneral,
+                ee.calificacion_final - AVG(ee_todos.calificacion_final) AS diferenciaConPromedio,
+                CASE\s
+                    WHEN ee.calificacion_final > AVG(ee_todos.calificacion_final) THEN 'Por encima del promedio'
+                    WHEN ee.calificacion_final = AVG(ee_todos.calificacion_final) THEN 'En el promedio'
+                    ELSE 'Por debajo del promedio'
+                END AS posicionRelativa
+            FROM evaluacion_estudiante ee
+            JOIN evaluaciones e\s
+                ON ee.id_evaluacion = e.id
+            JOIN evaluacion_estudiante ee_todos\s
+                ON e.id = ee_todos.id_evaluacion
+                AND ee_todos.calificacion_final > 0  
+            WHERE ee.id_estudiante = :idEstudiante
+                AND ee.calificacion_final > 0        
+            GROUP BY e.id, e.titulo, ee.calificacion_final;
+            """, nativeQuery = true)
+    List<ComparacionPromedioGeneralEvalu> getComparacionPromedioGeneralEvalu(
+            @Param("idEstudiante") Long idEstudiante);
+
+    @Query(value = """
+            SELECT\s
+                DATE_FORMAT(ee.fecha_inicio, '%Y-%m') AS mesAnio,
+                COUNT(ee.id) AS evaluacionesRealizadas,
+                AVG(ee.calificacion_final) AS calificacionPromedio,
+                MIN(ee.calificacion_final) AS calificacionMinima,
+                MAX(ee.calificacion_final) AS calificacionMaxima
+            FROM evaluacion_estudiante ee
+            WHERE ee.id_estudiante = :idEstudiante
+                AND ee.calificacion_final > 0   -- ← Excluir calificaciones en 0
+            GROUP BY DATE_FORMAT(ee.fecha_inicio, '%Y-%m')
+            ORDER BY mesAnio;
+            """, nativeQuery = true)
+    List<ProgresoMensualEstudiante> getProgresoMensualEstudiantes(
+            @Param("idEstudiante") Long idEstudiante);
+
+    @Query(value = """
+            SELECT\s
+                e.titulo AS evaluacion,
+                e.descripcion,
+                COUNT(DISTINCT ee.id_estudiante) AS totalEstudiantesAsignados,
+                AVG(ee.calificacion_final) AS calificacionPromedio,
+                MIN(ee.calificacion_final) AS calificacionMinima,
+                MAX(ee.calificacion_final) AS calificacionMaxima,
+                SUM(CASE WHEN ee.completado = 1 THEN 1 ELSE 0 END) AS completados
+                FROM evaluaciones e
+            LEFT JOIN evaluacion_estudiante ee ON e.id = ee.id_evaluacion
+            WHERE e.id_mentor = :idMentor\s
+            GROUP BY e.id, e.titulo, e.descripcion
+            ORDER BY e.fecha_creacion DESC;
+            """, nativeQuery = true)
+    List<ResumenEvalucionMentor> getResumenEvalucionMentors(
+            @Param("idMentor") Long idMentor);
+
+    @Query(value = """
+            SELECT\s
+                u.nombre,
+                u.apellidos,
+                u.email,
+                COUNT(ee.id) AS evaluacionesRealizadas,
+                AVG(ee.calificacion_final) AS calificacionPromedio,
+                SUM(CASE WHEN ee.completado = 1 THEN 1 ELSE 0 END) AS evaluacionesCompletadas
+            FROM usuarios u
+            JOIN evaluacion_estudiante ee ON u.id = ee.id_estudiante
+            JOIN evaluaciones e ON ee.id_evaluacion = e.id
+            WHERE e.id_mentor = :idMentor
+            GROUP BY u.id, u.nombre, u.apellidos, u.email
+            ORDER BY calificacionPromedio DESC;
+            """, nativeQuery = true)
+    List<MejorPeorDesempeno> getMejorPeorDesempenos(
+            @Param("idMentor") Long idMentor);
 }
